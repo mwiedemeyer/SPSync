@@ -1,0 +1,13 @@
+﻿<Window x:Class="SPSync.DownloadWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SPSync - Downloading..." Height="94" Width="221" Loaded="Window_Loaded" ResizeMode="NoResize" ShowInTaskbar="True" Topmost="True" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <ProgressBar Grid.Row="0" Height="24" Name="progressBar1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Width="176" IsIndeterminate="True" />
+        <TextBlock Grid.Row="1" Name="TextBlockStatus" Text="Initializing..." HorizontalAlignment="Center"></TextBlock>
+    </Grid>
+</Window>

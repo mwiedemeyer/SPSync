@@ -1,0 +1,21 @@
+﻿<Window x:Class="SPSync.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SPSync" Height="350" Width="525" ResizeMode="CanResize" Loaded="Window_Loaded" Closing="Window_Closing" Icon="/SPSync;component/SPSync.ico">
+    <Grid>
+        <ListBox ItemsSource="{Binding SyncModels}" HorizontalAlignment="Stretch" Margin="10,10,10,10" Name="listBox1" VerticalAlignment="Stretch" HorizontalContentAlignment="Stretch">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Vertical" Margin="0,0,0,10" HorizontalAlignment="Stretch">
+                        <TextBlock Text="{Binding DisplayName}" HorizontalAlignment="Stretch"></TextBlock>
+                        <ProgressBar Minimum="0" Maximum="100" Height="19" Value="{Binding Percent}" IsIndeterminate="{Binding IsIndeterminate}" HorizontalAlignment="Stretch"></ProgressBar>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch">
+                            <TextBlock Text="{Binding StatusLabel}" Margin="0,0,10,0"></TextBlock>
+                            <TextBlock Text="{Binding Message}"></TextBlock>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>

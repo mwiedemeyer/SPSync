@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>SPSyncApp</id>
+    <version>0.9.9.9071</version>
+    <title>SPSync</title>
+    <authors>http://spsync.net</authors>
+    <owners>Marco Wiedemeyer</owners>
+    <projectUrl>http://spsync.net</projectUrl>
+    <iconUrl>http://spsync.net/spsync.ico</iconUrl>    
+    <copyright>Copyright 2016 Marco Wiedemeyer</copyright>
+    <description>SPSync</description>
+  </metadata>
+  <files>
+    <file src="..\SPSync\bin\release\SPSync.exe" target="lib\net45" />
+    <file src="..\SPSync\bin\release\SPSync.exe.config" target="lib\net45" />
+    <file src="..\SPSync\bin\release\SPSync.Core.dll" target="lib\net45" />
+    <file src="..\SPSyncCli\bin\Release\SPSyncCli.exe" target="lib\net45" />
+
+    <file src="..\SPSync\bin\release\Microsoft.ApplicationInsights.dll" target="lib\net45" />
+    <file src="..\SPSync\bin\release\Microsoft.IdentityModel.dll" target="lib\net45" />
+    <file src="..\SPSync\bin\release\Microsoft.SharePoint.Client.dll" target="lib\net45" />
+    <file src="..\SPSync\bin\release\Microsoft.SharePoint.Client.Runtime.dll" target="lib\net45" />
+    <file src="..\SPSync\bin\release\Newtonsoft.Json.dll" target="lib\net45" />
+    
+    <file src="..\SPSync\bin\release\DeltaCompressionDotNet.dll" target="lib\net45" />
+    <file src="..\SPSync\bin\release\DeltaCompressionDotNet.MsDelta.dll" target="lib\net45" />
+    <file src="..\SPSync\bin\release\DeltaCompressionDotNet.PatchApi.dll" target="lib\net45" />
+    <file src="..\SPSync\bin\release\Hardcodet.Wpf.TaskbarNotification.dll" target="lib\net45" />
+    <file src="..\SPSync\bin\release\ICSharpCode.SharpZipLib.dll" target="lib\net45" />
+    <file src="..\SPSync\bin\release\Splat.dll" target="lib\net45" />    
+    <file src="..\SPSync\bin\release\Squirrel.dll" target="lib\net45" />
+    <file src="..\SPSync\bin\release\System.Net.Http.Formatting.dll" target="lib\net45" />
+  </files>
+</package>

@@ -1,3 +1,5 @@
+# Please note: This project is no longer under active development
+
 # SPSync
 
 This is the source for [SPSync](http://spsync.net), the alternative SharePoint/OneDrive for Business sync tool.

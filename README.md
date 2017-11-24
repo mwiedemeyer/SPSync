@@ -30,7 +30,4 @@ The solution contains 4 projects.
 - Moving or cut/paste files is not working as expected all the time
 - Sometimes a file/folder is not sync'ed
 
-## Donate
-If you like SPSync and want to pay me a beer:
 
-**[Donate via PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=58DQTSK6JXBJE)**
